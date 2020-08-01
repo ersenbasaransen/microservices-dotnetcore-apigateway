@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Product.Microservice</name>
+    </assembly>
+    <members>
+        <member name="M:Product.Microservice.Controllers.ProductController.Create(Product.Microservice.Features.ProductFeatures.Commands.CreateProduct.CreateProductCommand)">
+            <summary>
+            Creates a New Product
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

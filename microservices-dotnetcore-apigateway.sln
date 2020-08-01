@@ -5,15 +5,21 @@ VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C6407F0F-4554-460C-90BC-5567DD33C6D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Microservice", "src\microservices\Product.Microservice\Product.Microservice.csproj", "{CDA2FF82-A825-4A56-AC94-BC7D05E2E406}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Product.Microservice", "src\microservices\Product.Microservice\Product.Microservice.csproj", "{CDA2FF82-A825-4A56-AC94-BC7D05E2E406}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "microservices", "microservices", "{68EC94F2-2381-43E6-83A2-16579B5F5452}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customer.Microservice", "src\microservices\Customer.Microservice\Customer.Microservice.csproj", "{1D042C27-F5DB-45A5-8710-807BF53B8C65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Customer.Microservice", "src\microservices\Customer.Microservice\Customer.Microservice.csproj", "{1D042C27-F5DB-45A5-8710-807BF53B8C65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gateway.WebApi", "src\apigateway\Gateway.WebApi\Gateway.WebApi.csproj", "{D514A26E-5B73-4A04-8C38-4BB4782F8495}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gateway.WebApi", "src\apigateway\Gateway.WebApi\Gateway.WebApi.csproj", "{D514A26E-5B73-4A04-8C38-4BB4782F8495}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "apigateway", "apigateway", "{689BB542-9F6A-4434-ADF8-0A7AA87CAF2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4E200C8C-9DD5-4CA0-968B-D8500ABB5706}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

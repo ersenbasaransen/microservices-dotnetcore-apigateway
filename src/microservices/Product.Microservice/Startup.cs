@@ -10,8 +10,6 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using Product.Microservice.Context;
 using Product.Microservice.PipelineBehaviours;
-using Swashbuckle.AspNetCore.Swagger;
-using Microsoft.OpenApi.Models;
 
 
 namespace Product.Microservice

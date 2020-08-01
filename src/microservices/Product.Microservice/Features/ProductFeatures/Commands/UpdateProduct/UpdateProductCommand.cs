@@ -12,10 +12,7 @@ namespace Product.Microservice.Features.ProductFeatures.Commands.UpdateProduct
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public string Barcode { get; set; }
-        public string Description { get; set; }
         public decimal BuyingPrice { get; set; }
-        public decimal Rate { get; set; }
         public class UpdateProductCommandHandler : IRequestHandler<UpdateProductCommand, int>
         {
             private readonly IApplicationContext _context;
@@ -33,11 +30,8 @@ namespace Product.Microservice.Features.ProductFeatures.Commands.UpdateProduct
                 }
                 else
                 {
-                    product.Barcode = command.Barcode;
                     product.Name = command.Name;
                     product.BuyingPrice = command.BuyingPrice;
-                    product.Rate = command.Rate;
-                    product.Description = command.Description;
                     await _context.SaveChangesAsync();
                     return product.Id;
                 }

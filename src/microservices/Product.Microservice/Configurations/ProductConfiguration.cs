@@ -13,9 +13,6 @@ namespace Product.Microservice.Configurations
         {
             builder.Property(t => t.BuyingPrice)
                 .HasColumnType("decimal(18,2)");
-
-            builder.Property(t => t.Rate)
-                .HasColumnType("decimal(18,2)");
         }
     }
 }
